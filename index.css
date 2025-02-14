@@ -1,0 +1,127 @@
+@charset 'UTF-8';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    background-image: url(bitcoin-banknotes-frame_.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #008b90eb;
+    color: rgba(255, 255, 255, 0.922);
+    padding: 30px 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+    font-weight: bold;
+    border-radius: 25px;
+    text-align: center;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.300);
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.300);
+}
+
+.table-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow-x: auto;
+    padding: 20px 0;
+}
+
+table {
+    background-color: #b1fff8ea;
+    border: 3px solid #56B7BC;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th {
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    border: 3px solid #008b90eb;
+}
+
+tbody td {
+    color: rgba(0, 0, 0, 0.672);
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #008b90eb;
+}
+
+footer {
+    margin-top: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+footer div {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #008b90;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .table-container {
+        width: 95%;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        width: 98%;
+        padding: 15px;
+    }
+
+    .table-container {
+        width: 98%;
+        padding: 10px 0;
+    }
+
+    table {
+        font-size: 0.8rem;
+    }
+
+    thead th,
+    tbody td {
+        padding: 10px 5px;
+    }
+
+    footer {
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+}
