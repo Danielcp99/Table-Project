@@ -4,175 +4,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Comparação de Riquezas</title>
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-
     <header>
         <h1>A riqueza dos indivíduos mais ricos do mundo vs. PIB de alguns países</h1>
-        <p>O patrimônio líquido dos mais ricos do mundo é comparável ao PIB de alguns países (em milhares de milhões
-            de
-            dólares)</p>
+        <p>O patrimônio líquido dos mais ricos do mundo é comparável ao PIB de alguns países (em bilhões de dólares)</p>
     </header>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Rank</th>
-                <th>Nome</th>
-                <th>Empresa</th>
-                <th>Fortuna Líquida ($USD)</th>
-                <th>Rank</th>
-                <th>País</th>
-                <th> (trilhões de $USD)</th>
-            </tr>
-        </thead>
-
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Elon Musk</td>
-                <td>Tesla, SpaceX, X</td>
-                <td>$421.2 bilhões / $417.3 bilhões</td>
-                <td>1</td>
-                <td>Estados Unidos</td>
-                <td>22.998</td>
-            </tr>
-
-            <tr>
-                <td>2</td>
-                <td>Jeff Bezos</td>
-                <td>Amazon</td>
-                <td>$233.5 bilhões / $233.3 bilhões</td>
-                <td>2</td>
-                <td>China</td>
-                <td>17.458</td>
-            </tr>
-
-            <tr>
-                <td>3</td>
-                <td>Larry Ellison</td>
-                <td>Oracle</td>
-                <td>$209.7 bilhões / $198.7 bilhões</td>
-                <td>3</td>
-                <td>Japão</td>
-                <td>4.937</td>
-
-            </tr>
-
-            <tr>
-                <td>4</td>
-                <td>Mark Zuckerberg</td>
-                <td>Meta</td>
-                <td>$202.5 bilhões / $209.6 bilhões</td>
-                <td>4</td>
-                <td>Alemanha</td>
-                <td>4.226</td>
-
-            </tr>
-
-            <tr>
-                <td>5</td>
-                <td>Bernard Arnault</td>
-                <td>LVMH</td>
-                <td>$168.8 bilhões</td>
-                <td>5</td>
-                <td>Reino Unido</td>
-                <td>3.188</td>
-
-            </tr>
-
-            <tr>
-                <td>6</td>
-                <td>Bill Gates</td>
-                <td>Google</td>
-                <td>$165 bilhões</td>
-                <td>6</td>
-                <td>Índia</td>
-                <td>3.042</td>
-            </tr>
-
-            <tr>
-                <td>7</td>
-                <td>Sergey Brin</td>
-                <td>Microsoft</td>
-                <td>$164 bilhões</td>
-                <td>7</td>
-                <td>França</td>
-                <td>2.935</td>
-            </tr>
-
-            <tr>
-                <td>8</td>
-                <td>Larry Page</td>
-                <td>Google</td>
-                <td>$156 bilhões</td>
-                <td>8</td>
-                <td>Itália</td>
-                <td>2.101</td>
-            </tr>
-
-            <tr>
-                <td>9</td>
-                <td>Steve Ballmer</td>
-                <td>Microsoft</td>
-                <td>$152 bilhões</td>
-                <td>9</td>
-                <td>Canadá</td>
-                <td>1.991</td>
-            </tr>
-
-            <tr>
-                <td>10</td>
-                <td>Warren Buffett</td>
-                <td>Berkshire Hathaway</td>
-                <td>$143 bilhões</td>
-                <td>10</td>
-                <td>Coreia do Sul</td>
-                <td>1.799</td>
-            </tr>
-
-            <tr>
-                <td>11</td>
-                <td>Michael Dell</td>
-                <td>Dell Technologies</td>
-                <td>$130 bilhões</td>
-                <td>11</td>
-                <td>México</td>
-                <td>1,810</td>
-            </tr>
-
-            <tr>
-                <td>12</td>
-                <td>Jim Walton</td>
-                <td>Walmart</td>
-                <td>$117 bilhões</td>
-                <td>12</td>
-                <td>Brasil</td>
-                <td>1,608</td>
-            </tr>
-    </table>
+    <div class="table-container">
+        <div class="table-scroll">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Nome</th>
+                        <th>Empresa</th>
+                        <th>Fortuna Líquida</th>
+                        <th>Rank</th>
+                        <th>País</th>
+                        <th>PIB</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Elon Musk</td>
+                        <td class="company">Tesla, SpaceX, X</td>
+                        <td class="fortune">$421.2B</td>
+                        <td>1</td>
+                        <td>Estados Unidos</td>
+                        <td class="gdp">$22.998T</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jeff Bezos</td>
+                        <td class="company">Amazon</td>
+                        <td class="fortune">$233.5B</td>
+                        <td>2</td>
+                        <td>China</td>
+                        <td class="gdp">$17.458T</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Larry Ellison</td>
+                        <td class="company">Oracle</td>
+                        <td class="fortune">$209.7B</td>
+                        <td>3</td>
+                        <td>Japão</td>
+                        <td class="gdp">$4.937T</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Mark Zuckerberg</td>
+                        <td class="company">Meta</td>
+                        <td class="fortune">$202.5B</td>
+                        <td>4</td>
+                        <td>Alemanha</td>
+                        <td class="gdp">$4.226T</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Bernard Arnault</td>
+                        <td class="company">LVMH</td>
+                        <td class="fortune">$168.8B</td>
+                        <td>5</td>
+                        <td>Reino Unido</td>
+                        <td class="gdp">$3.188T</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Bill Gates</td>
+                        <td class="company">Microsoft</td>
+                        <td class="fortune">$165.0B</td>
+                        <td>6</td>
+                        <td>Índia</td>
+                        <td class="gdp">$3.042T</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Sergey Brin</td>
+                        <td class="company">Google</td>
+                        <td class="fortune">$164.0B</td>
+                        <td>7</td>
+                        <td>França</td>
+                        <td class="gdp">$2.935T</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Larry Page</td>
+                        <td class="company">Google</td>
+                        <td class="fortune">$156.0B</td>
+                        <td>8</td>
+                        <td>Itália</td>
+                        <td class="gdp">$2.101T</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Steve Ballmer</td>
+                        <td class="company">Microsoft</td>
+                        <td class="fortune">$152.0B</td>
+                        <td>9</td>
+                        <td>Canadá</td>
+                        <td class="gdp">$1.991T</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Warren Buffett</td>
+                        <td class="company">Berkshire Hathaway</td>
+                        <td class="fortune">$143.0B</td>
+                        <td>10</td>
+                        <td>Coreia do Sul</td>
+                        <td class="gdp">$1.799T</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>Michael Dell</td>
+                        <td class="company">Dell Technologies</td>
+                        <td class="fortune">$130.0B</td>
+                        <td>11</td>
+                        <td>México</td>
+                        <td class="gdp">$1.810T</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>Jim Walton</td>
+                        <td class="company">Walmart</td>
+                        <td class="fortune">$117.0B</td>
+                        <td>12</td>
+                        <td>Brasil</td>
+                        <td class="gdp">$1.608T</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 
     <footer>
-        <div>Sources: <a href="https://www.belemnegocios.com/post/confira-as-10-maiores-economias-do-mundo-em-2025"
-                target="_blank" title="www.belemnegocios.com">Belem Negocios</a> |
-            <a href="https://economia.uol.com.br/noticias/estadao-conteudo/2025/01/12/fortunas-dos-10-mais-ricos-do-planeta-somam-quase-us-2-trilhoes-mostra-ranking-da-forbes.html"
-                target="_blank" title="www.forbespt.com">Forbespt</a>
+        <div>
+            Sources:
+            <a href="https://www.belemnegocios.com" target="_blank">Belem Negocios</a> |
+            <a href="https://www.forbespt.com" target="_blank">Forbespt</a>
         </div>
-
-        <div class="div1">
-            Images by <a href="https://www.freepik.com/" target="_blank" title="Freepik.com">🔗Freepik</a>
+        <div>
+            Images by <a href="https://www.freepik.com" target="_blank">Freepik</a>
+        </div>
+        <div>
             <strong>©2025 Carlos Daniel | All rights reserved</strong>
         </div>
     </footer>
-
-
-
-
-
-
 </body>
 
 </html>
